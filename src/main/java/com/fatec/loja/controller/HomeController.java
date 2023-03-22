@@ -27,5 +27,9 @@ public class HomeController {
     public String suplemento(){
         return "suplemento";
     }
+
+    @GetMapping("/lanche")
+    public String lanche(){return "lanche";}
+
 }
 
